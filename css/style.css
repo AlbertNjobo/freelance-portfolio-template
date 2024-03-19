@@ -48,7 +48,14 @@ body {
     color : #ffffff;
     
 }
-
+@media (max-width: 700px) {
+  .about-img{
+    margin-left: 20px;
+    right: 0px;
+    top: 30px;
+   }
+}
+/*===
 .hero-text{
     margin-top: 150px;
 }
@@ -89,6 +96,12 @@ a:hover{
 color: #0bceaf;
 }
 
+@media (max-width: 991.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+}
+
 /*================About Section====================*/
 
 .blue{
@@ -111,6 +124,10 @@ color: #0bceaf;
     width: 0px;
     border-radius: 10px;
     transition: 2s;
+  }
+  .typed-cursor {
+    font-size: 45px;
+    color: #ffffff;
   }
 .display-1{
     font: 160px;
@@ -240,3 +257,11 @@ color: #0bceaf;
   top: 30px;
   left: 30px;
  }
+ @keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
